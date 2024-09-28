@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinner Example</title>
+    <link rel="stylesheet" href="src/components/Spinner.css">
+    <style>
+        /* Basic reset for margins and paddings */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Center the body content */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #282c34; /* Dark background */
+            font-family: Arial, sans-serif;
+            color: white; /* Text color */
+        }
+
+        /* Container for the spinner and message */
+        .container {
+            text-align: center;
+        }
+
+        /* Styling for the loading message */
+        .loading-message {
+            margin-top: 20px; /* Space between spinner and text */
+            font-size: 1.5em;
+            color: #f8b400; /* Color matches spinner */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner">
+            <div class="double-bounce1"></div>
+            <div class="double-bounce2"></div>
+        </div>
+        <div class="loading-message">Loading, please wait...</div>
+    </div>
+</body>
+</html>
